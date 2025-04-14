@@ -36,3 +36,15 @@ li a:hover {
   background-color: lightgray;
   text-align: center;
 }
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  /*grid-template-rows: 80px 200px;*/  
+  gap: 10px;
+  background-color: dodgerblue;
+  padding: 10px;
+}
