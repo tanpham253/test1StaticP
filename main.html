@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Static Page</title>
-    <link rel="stylesheet" href="2.css">
-    <script src="3.js"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- tripadvisor.com -->
+    <div class="header"><!-- do not wrap -->
+      <div icon="">icon</div>
+      <div>search bar</div>
+    </div>
+    <div class="header"><!-- do not wrap -->
+      <div icon="">1</div>
+      <div icon="">things here</div>
+      <div>things here</div>
+    </div>
+    <div class="banner"></div>
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li style="float: right"><a href="#contact">Contact</a></li>
+    </ul>
     <h1>Welcome to the Static Page</h1>
     <p>This is a simple HTML template.</p>
-</body>
+    <hr>
+    <div class="gridContainer">
+      <div class="item1">col 1</div>
+      <div class="item4">col 2</div>
+      <div class="item2">col 1</div>
+      <div class="item5">col 2</div>
+      <div class="item3">col 1</div>
+      <div class="item6">col 2</div>
+    </div>
+    <div class="footer">
+      <div id="dateTime"></div>
+      <div id="loc"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
