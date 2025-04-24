@@ -87,7 +87,6 @@ li a:hover {
 }
 .gridContainer {
   display: grid;
-  grid-template-columns: 30% 70%;
   margin-left: 10%;
   margin-right: 10%;
   /*grid-template-rows: 80px 200px;*/
@@ -101,9 +100,6 @@ li a:hover {
   height: 400px;
   background-image: url("../img/banner.jpg");
   background-size: cover;
-}
-.itemGridLeft {
-  grid-column: 1;
 }
 .itemGridRight {
   grid-column: 2;
@@ -139,9 +135,6 @@ li a:hover {
 
 /*Grid css*/
 /*Grid left*/
-.itemGridLeft {
-  grid-row: 1 / span 7;
-}
 .subCategory {
   margin-left: 10%;
   line-height: 50px;
@@ -176,6 +169,11 @@ li a:hover {
   color: lightblue;
 }
 /*img*/
+/*avatar*/
+.avatar {
+  width: 40px;
+  height: 40px;
+}
 /*beach resize*/
 .beachImg {
   padding: 40px;
@@ -209,12 +207,15 @@ li a:hover {
   margin-right: 10px;
 }
 
-
 /*slide show 2*/
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
+}
+.middleSlide {
+  width: 100%;
+  height: 300px;
 }
 /* Caption text */
 .text {
@@ -253,7 +254,70 @@ li a:hover {
   animation-duration: 1.5s;
 }
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
-/**/
+/*footer*/
+.company-footer {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.footer-logo img {
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000000;
+  text-decoration: underline;
+}
+.footer-disclaimer,
+.footer-note {
+  margin: 10px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.dropdown-class {
+  display: inline-block;
+  border: solid 1px black;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: white;
+  color: #333;
+  margin: 10px 20px;
+  cursor: pointer;
+  padding: 0px 30px 0px 30px;
+}
+.dropdown-class:hover {
+  background-color: #b2b2b2;
+}
+
+/*rescponsive*/
+@media screen and (min-width: 780px) {
+  .itemGridLeft {
+    grid-column: 1;
+    grid-row: 1 / span 7;
+  }
+  .gridContainer {
+    grid-template-columns: 30% 70%;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 779px) {
+  .itemGridLeft {
+    display: none;
+  }
+  .gridContainer {
+    grid-template-columns: 0% 100%;
+  }
+}
