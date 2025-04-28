@@ -13,9 +13,9 @@
     <link
       rel="stylesheet"
       href="Composedstyle.css"
-      media="(min-width: 480px)"
+      media="(min-width: 500px)"
     />
-    <link rel="stylesheet" href="PhoneView.css" media="(max-width: 479px)" />
+    <link rel="stylesheet" href="PhoneView.css" media="(max-width: 499px)" />
   </head>
   <body>
     <!-- tripadvisor.com -->
@@ -29,24 +29,26 @@
     </div>
     <div class="banner"></div>
     <ul>
-      <li><a class="active" href="#home">Home</a></li>
-      <li><a href="#news">News</a></li>
-      <li style="float: right"><a href="#contact">Contact</a></li>
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="/News-Event/news-event.html">News</a></li>
+      <li><a href="/Services/Dichvu.html">Services</a></li>
+      <li><a href="/Career/career.html">Career</a></li>
+      <li style="float: right"><a href="/contact/contact.html">Contact</a></li>
     </ul>
     <div class="title">
-      <h1>Welcome to the Static Page</h1>
-      <p>This is a simple HTML template.</p>
+      <h1>Welcome to Da Nang</h1>
+      <p>Popular beaches.</p>
     </div>
     <hr />
     <div class="gridContainer">
       <div class="itemGridLeft">
-        <h3>Category</h3>
-        <a href="#" class="subCategory">Category 1</a><br />
-        <a href="#" class="subCategory">Category 1</a><br />
-        <a href="#" class="subCategory">Category 1</a><br />
-        <a href="#" class="subCategory">Category 1</a><br />
-        <a href="#" class="subCategory">Category 1</a><br />
-        <a href="#" class="subCategory">Category 1</a>
+        <h3>Danang</h3>
+        <a href="#" class="subCategory">My Khe Beach</a><br />
+        <a href="#" class="subCategory">Non Nuoc Beach</a><br />
+        <a href="#" class="subCategory">Phuoc My Beach</a><br />
+        <a href="#" class="subCategory">Man Thai Beach</a><br />
+        <a href="#" class="subCategory">Red Beach</a><br />
+        <a href="#" class="subCategory">Son Tra Beach</a>
       </div>
       <div class="itemGridRight">
         <div class="w3-content w3-display-container">
@@ -55,13 +57,13 @@
           <img class="mySlides1" src="img/mykhe2.png" class="beachImg" />
           <button
             class="w3-button w3-black w3-display-left"
-            onclick="plusDivs(-1)"
+            onclick="slideshow1.prev()"
           >
             &#10094;
           </button>
           <button
             class="w3-button w3-black w3-display-right"
-            onclick="plusDivs(1)"
+            onclick="slideshow1.next()"
           >
             &#10095;
           </button>
@@ -78,8 +80,8 @@
           <button class="tourButton">See Tours</button>
         </div>
         <div class="comment">
-          <img class="avatar" src="img/aSquare.webp"/>
-          By 123
+          <img class="avatar" src="img/avatar1.png" />
+          By TravelingFoodieLife
           <p>
             The soft, inviting sand is perfect for a leisurely stroll along the
             shoreline, with the waves lapping gently at your...
@@ -89,63 +91,62 @@
       <!-- -->
       <div class="itemGridRight">
         <div class="w3-content w3-display-container">
-          <img class="mySlides" src="img/mykhe.png" class="beachImg" />
-          <img class="mySlides" src="img/mykhe1.png" class="beachImg" />
-          <img class="mySlides" src="img/mykhe2.png" class="beachImg" />
+          <img class="mySlides2" src="img/nonnuoc.png" class="beachImg" />
+          <img class="mySlides2" src="img/nonnuoc1.png" class="beachImg" />
+          <img class="mySlides2" src="img/nonnuoc2.png" class="beachImg" />
           <button
             class="w3-button w3-black w3-display-left"
-            onclick="plusDivs(-1)"
+            onclick="slideshow2.prev()"
           >
             &#10094;
           </button>
           <button
             class="w3-button w3-black w3-display-right"
-            onclick="plusDivs(1)"
+            onclick="slideshow2.next()"
           >
             &#10095;
           </button>
         </div>
         <div class="middleFlex">
-          <a href="#">1. My Khe</a>
+          <a href="#">2. Non Nuoc</a>
           <div>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
           </div>
           <button class="tourButton">See Tours</button>
         </div>
         <div class="comment">
-          <img class="avatar" src="img/aSquare.webp"/>
-          By 123
+          <img class="avatar" src="img/avatar2.png" />
+          By matthewsc0ttm
           <p>
-            The soft, inviting sand is perfect for a leisurely stroll along the
-            shoreline, with the waves lapping gently at your...
+            The soft sand, gentle waves, and stunning ocean views create a perfect setting for a romantic and unforgettable cerem...
           </p>
         </div>
       </div>
       <!-- -->
       <div class="itemGridRight">
         <div class="w3-content w3-display-container">
-          <img class="mySlides" src="img/mykhe.png" class="beachImg" />
-          <img class="mySlides" src="img/mykhe1.png" class="beachImg" />
-          <img class="mySlides" src="img/mykhe2.png" class="beachImg" />
+          <img class="mySlides3" src="img/phuocmy.png" class="beachImg" />
+          <img class="mySlides3" src="img/phuocmy1.png" class="beachImg" />
+          <img class="mySlides3" src="img/phuocmy2.png" class="beachImg" />
           <button
             class="w3-button w3-black w3-display-left"
-            onclick="plusDivs(-1)"
+            onclick="slideshow3.prev()"
           >
             &#10094;
           </button>
           <button
             class="w3-button w3-black w3-display-right"
-            onclick="plusDivs(1)"
+            onclick="slideshow3.next()"
           >
             &#10095;
           </button>
         </div>
         <div class="middleFlex">
-          <a href="#">1. My Khe</a>
+          <a href="#">3. Phuoc My</a>
           <div>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
@@ -156,11 +157,10 @@
           <button class="tourButton">See Tours</button>
         </div>
         <div class="comment">
-          <img class="avatar" src="img/aSquare.webp"/>
-          By 123
+          <img class="avatar" src="img/avatar3.png" />
+          By lukegreenl
           <p>
-            The soft, inviting sand is perfect for a leisurely stroll along the
-            shoreline, with the waves lapping gently at your...
+            The sound of the waves, the soft sand, and the fresh sea breeze create a perfect environment for relaxation and mindf...
           </p>
         </div>
       </div>
@@ -169,20 +169,20 @@
         <div class="slideshow-container">
           <div class="Slides fade">
             <div class="numbertext">1 / 3</div>
-            <img class="middleSlide" src="img/slide1.jpg"/>
-            <div class="text">Caption Text</div>
+            <img class="middleSlide" src="img/slide1.jpg" />
+            <div class="text"></div>
           </div>
 
           <div class="Slides fade">
             <div class="numbertext">2 / 3</div>
-            <img class="middleSlide" src="img/slide2.jpg"/>
-            <div class="text">Caption Two</div>
+            <img class="middleSlide" src="img/slide2.jpg" />
+            <div class="text"></div>
           </div>
 
           <div class="Slides fade">
             <div class="numbertext">3 / 3</div>
-            <img class="middleSlide" src="img/slide3.jpg"/>
-            <div class="text">Caption Three</div>
+            <img class="middleSlide" src="img/slide3.jpg" />
+            <div class="text"></div>
           </div>
         </div>
         <br />
@@ -195,24 +195,24 @@
       <!-- -->
       <div class="itemGridRight">
         <div class="w3-content w3-display-container">
-          <img class="mySlides" src="img/mykhe.png" class="beachImg" />
-          <img class="mySlides" src="img/mykhe1.png" class="beachImg" />
-          <img class="mySlides" src="img/mykhe2.png" class="beachImg" />
+          <img class="mySlides4" src="img/manthai.png" class="beachImg" />
+          <img class="mySlides4" src="img/manthai1.png" class="beachImg" />
+          <img class="mySlides4" src="img/manthai2.png" class="beachImg" />
           <button
             class="w3-button w3-black w3-display-left"
-            onclick="plusDivs(-1)"
+            onclick="slideshow4.prev()"
           >
             &#10094;
           </button>
           <button
             class="w3-button w3-black w3-display-right"
-            onclick="plusDivs(1)"
+            onclick="slideshow4.next()"
           >
             &#10095;
           </button>
         </div>
         <div class="middleFlex">
-          <a href="#">1. My Khe</a>
+          <a href="#">4. Man Thai</a>
           <div>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
@@ -223,35 +223,34 @@
           <button class="tourButton">See Tours</button>
         </div>
         <div class="comment">
-          <img class="avatar" src="img/aSquare.webp"/>
-          By 123
+          <img class="avatar" src="img/avatar4.png" />
+          By westonkellyw
           <p>
-            The soft, inviting sand is perfect for a leisurely stroll along the
-            shoreline, with the waves lapping gently at your...
+            The soft sand, gentle waves, and stunning ocean views create a perfect setting for a night under the stars.
           </p>
         </div>
       </div>
       <!---->
       <div class="itemGridRight">
         <div class="w3-content w3-display-container">
-          <img class="mySlides" src="img/mykhe.png" class="beachImg" />
-          <img class="mySlides" src="img/mykhe1.png" class="beachImg" />
-          <img class="mySlides" src="img/mykhe2.png" class="beachImg" />
+          <img class="mySlides5" src="img/redbeach.png" class="beachImg" />
+          <img class="mySlides5" src="img/redbeach1.png" class="beachImg" />
+          <img class="mySlides5" src="img/redbeach2.png" class="beachImg" />
           <button
             class="w3-button w3-black w3-display-left"
-            onclick="plusDivs(-1)"
+            onclick="slideshow5.prev()"
           >
             &#10094;
           </button>
           <button
             class="w3-button w3-black w3-display-right"
-            onclick="plusDivs(1)"
+            onclick="slideshow5.next()"
           >
             &#10095;
           </button>
         </div>
         <div class="middleFlex">
-          <a href="#">1. My Khe</a>
+          <a href="#">5. Red Beach</a>
           <div>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
@@ -262,35 +261,34 @@
           <button class="tourButton">See Tours</button>
         </div>
         <div class="comment">
-          <img class="avatar" src="img/aSquare.webp"/>
-          By 123
+          <img class="avatar" src="img/avatar5.png" />
+          By 237StefanO
           <p>
-            The soft, inviting sand is perfect for a leisurely stroll along the
-            shoreline, with the waves lapping gently at your...
+            Red Beach on the ocean is great like all the beaches all the way down to Hoi An! Great clear water to enjoy as well!...
           </p>
         </div>
       </div>
       <!---->
       <div class="itemGridRight">
         <div class="w3-content w3-display-container">
-          <img class="mySlides" src="img/mykhe.png" class="beachImg" />
-          <img class="mySlides" src="img/mykhe1.png" class="beachImg" />
-          <img class="mySlides" src="img/mykhe2.png" class="beachImg" />
+          <img class="mySlides6" src="img/sontra.png" class="beachImg" />
+          <img class="mySlides6" src="img/sontra1.png" class="beachImg" />
+          <img class="mySlides6" src="img/sontra2.png" class="beachImg" />
           <button
             class="w3-button w3-black w3-display-left"
-            onclick="plusDivs(-1)"
+            onclick="slideshow6.prev()"
           >
             &#10094;
           </button>
           <button
             class="w3-button w3-black w3-display-right"
-            onclick="plusDivs(1)"
+            onclick="slideshow6.next()"
           >
             &#10095;
           </button>
         </div>
         <div class="middleFlex">
-          <a href="#">1. My Khe</a>
+          <a href="#">6. Son Tra</a>
           <div>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
@@ -301,11 +299,10 @@
           <button class="tourButton">See Tours</button>
         </div>
         <div class="comment">
-          <img class="avatar" src="img/aSquare.webp"/>
-          By 123
+          <img class="avatar" src="img/avatar6.png" />
+          By normeb2024
           <p>
-            The soft, inviting sand is perfect for a leisurely stroll along the
-            shoreline, with the waves lapping gently at your...
+            The soft sand, gentle waves, and stunning ocean views create a perfect setting for a leisurely ride.
           </p>
         </div>
       </div>

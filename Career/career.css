@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+}
+
+.banner {
+  background-image: url("redd-francisco-PTRzqc_h1r4-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner h1 {
+  font-size: 80px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  text-decoration: underline;
+}
+
+.select-job {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.select-job button {
+  padding: 10px 30px;
+  font-size: 16px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+
+.select-job button:hover {
+  background-color: #eee;
+}
+
+.job-listing {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.job {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 20px; /* giảm khoảng cách hai bên còn 20px */
+}
+
+.job-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.job-details {
+  font-size: 14px;
+  color: #555;
+}
+
+.icon1 {
+  background-color: rgb(255, 251, 0);
+  color: rgb(255, 42, 42);
+  padding: 2px 6px;
+  font-size: 12px;
+  margin-left: 15px;
+  display: inline-flex;
+}
+
+.apply-button {
+  padding: 8px 15px;
+  font-size: 14px;
+  border: 2px solid #000;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+  background-color: #eee;
+}
+
+.description {
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 10px;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
