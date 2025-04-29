@@ -68,9 +68,6 @@ li a:hover {
 .active {
   background-color: #4caf50;
 }
-.title {
-  margin-left: 20%;
-}
 .footer {
   position: fixed;
   left: 0;
@@ -174,28 +171,9 @@ li a:hover {
   width: 40px;
   height: 40px;
 }
-/*beach resize*/
-.beachImg {
-  padding: 40px;
-  height: 200px;
-  width: 200px;
-}
 /*star color*/
 .checked {
   color: orange;
-}
-/*slide*/
-.mySlides1 {
-  display: none;
-  margin: auto;
-  height: 200px;
-  width: 200px;
-}
-.mySlides {
-  display: none;
-  margin: auto;
-  height: 200px;
-  width: 200px;
 }
 /*Footer*/
 #loc {
@@ -206,7 +184,43 @@ li a:hover {
   float: right;
   margin-right: 10px;
 }
-
+/*beach resize*/
+.mySlides1 {
+  display: none;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+.mySlides2 {
+  display: none;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+.mySlides3 {
+  display: none;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+.mySlides4 {
+  display: none;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+.mySlides5 {
+  display: none;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+.mySlides6 {
+  display: none;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
 /*slide show 2*/
 .slideshow-container {
   max-width: 1000px;
@@ -304,6 +318,9 @@ li a:hover {
 
 /*rescponsive*/
 @media screen and (min-width: 780px) {
+  .title {
+    margin-left: 20%;
+  }
   .itemGridLeft {
     grid-column: 1;
     grid-row: 1 / span 7;
@@ -313,7 +330,10 @@ li a:hover {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 779px) {
+@media screen and (min-width: 490px) and (max-width: 779px) {
+  .title {
+    margin-left: 20px;
+  }
   .itemGridLeft {
     display: none;
   }

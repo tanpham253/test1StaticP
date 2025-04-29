@@ -72,7 +72,7 @@ li a:hover {
   background-color: #4caf50;
 }
 .title {
-  margin-left: 20%;
+  margin-left: 5px;
 }
 .footer {
   position: fixed;
@@ -193,7 +193,31 @@ li a:hover {
   height: 200px;
   width: 200px;
 }
-.mySlides {
+.mySlides2 {
+  display: none;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+.mySlides3 {
+  display: none;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+.mySlides4 {
+  display: none;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+.mySlides5 {
+  display: none;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+.mySlides6 {
   display: none;
   margin: auto;
   height: 200px;
